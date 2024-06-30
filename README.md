@@ -1,1 +1,4 @@
-# Chaos_papagali
+# Chaos Papagali
+
+A hardware that imitate de vibration of a cellphone.
+Under development...
