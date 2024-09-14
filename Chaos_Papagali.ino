@@ -14,7 +14,7 @@
 #define MODE3   3
 
 /*************************/
-/* Arduino Uno R3 */
+/* Arduino Uno R3 - Proof of concept */
 //#define MOTOR_PIN   3
 //#define SW1   4
 //#define SW2   5
@@ -24,23 +24,23 @@
 /*************************/
 
 /*************************/
-/* Arduino Pro mini */
-#define MOTOR_PIN   9
-#define SW1   5
-#define SW2   4
-#define SW3   3
-#define SW4   2
-#define LIGHT_SENSOR_PIN 1
+/* Arduino Pro mini - Prototype */
+//#define MOTOR_PIN   9
+//#define SW1   5
+//#define SW2   4
+//#define SW3   3
+//#define SW4   2
+//#define LIGHT_SENSOR_PIN 1
 /*************************/
 
 /******************************/
-/* Chaos Papagali basic board */
-//#define MOTOR_PIN   12
-//#define SW1   4
-//#define SW2   5
-//#define SW3   6
-//#define SW4   7
-//#define LIGHT_SENSOR_PIN 3
+/* Chaos Papagali final board */
+#define MOTOR_PIN   12
+#define SW1   A2
+#define SW2   A1
+#define SW3   A0
+#define SW4   13
+#define LIGHT_SENSOR_PIN A3
 /*************************/
 
 #define LIGHT_THRESHOLD  450
@@ -63,10 +63,10 @@ int light_value = 0;
 
 void setup() 
 {
-  //Serial.begin(9600); //for debug only
+ // Serial.begin(9600); //for debug only
   pinMode(MOTOR_PIN, OUTPUT);
 
-  randomSeed(analogRead(0));
+  randomSeed(analogRead(A3));
   
   pinMode(SW1, INPUT_PULLUP);
   pinMode(SW2, INPUT_PULLUP);
@@ -75,7 +75,7 @@ void setup()
 
   check_mode(&modes);
 
-  //Serial.println(modes.chmode);
+ // Serial.println(modes.chmode);
 
   if(modes.time_short_or_long == 1)
   {
@@ -140,13 +140,11 @@ void loop()
   Serial.println(modes.time_short_or_long);
   Serial.print("random = ");
   Serial.println(chaos_time);
-  delay(100);        */     
+  delay(100);            */
 
   /* Wait in low power mode */
   for(int p = 0; p < chaos_time; p++)
   {
-    LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);  
-    //LowPower.idle(SLEEP_8S, ADC_OFF, TIMER2_OFF, TIMER1_OFF, TIMER0_OFF, 
-     //           SPI_OFF, USART0_OFF, TWI_OFF);
+    LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);  /* 500 uA in this mode  */
   }
 }

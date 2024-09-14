@@ -6,6 +6,7 @@
   https://www.pakequis.com.br
 */
 
+/* Check dip switch config */
 void check_mode(chaos_mode *cm)
 {
   cm->chmode = 0;

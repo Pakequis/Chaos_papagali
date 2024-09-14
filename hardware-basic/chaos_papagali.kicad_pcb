@@ -1626,7 +1626,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at -2.7705 0.127 -90)
+			(at -2.6435 0 -90)
 			(layer "F.SilkS")
 			(uuid "c1ccc640-5052-470a-a44f-877cdd6d6e57")
 			(effects
@@ -1836,7 +1836,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 3.0715 0 90)
+			(at 2.3095 -1.27 90)
 			(layer "F.SilkS")
 			(uuid "c90da417-21f5-489f-8ff9-d52f646c89ff")
 			(effects
@@ -4206,7 +4206,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
-			(at 0.127 1.651 180)
+			(at -3.428 -0.381 180)
 			(layer "F.SilkS")
 			(uuid "33131c73-cc79-4ec3-8026-c6d9808c87b2")
 			(effects
@@ -4475,7 +4475,7 @@
 			(uuid "3860ae45-e8eb-4a8d-a906-75a1011ca046")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.127 1.651 180)
+			(at -3.428 -0.381 180)
 			(layer "F.Fab")
 			(uuid "1df449d6-bad1-4c13-a72b-b2f53b3529a4")
 			(effects
@@ -6218,7 +6218,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "SW1"
-			(at 0 -2.54 180)
+			(at -1.778 -2.54 180)
 			(layer "F.SilkS")
 			(uuid "b60ae82a-6632-4b48-92b9-c82fae931c6a")
 			(effects
@@ -6481,7 +6481,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.43 180)
+			(at 2.5665 -0.254 -90)
 			(layer "F.SilkS")
 			(uuid "0dabc042-8e00-45aa-bae4-801947c44abc")
 			(effects
@@ -6691,7 +6691,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 2.6445 -0.635 0)
+			(at 2.2635 -0.889 0)
 			(layer "F.SilkS")
 			(uuid "2569f8ff-297e-4e00-afdc-fca4c5333003")
 			(effects
@@ -8130,7 +8130,7 @@
 		(descr "4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil")
 		(property "Reference" "SW3"
-			(at -2.032 8.636 90)
+			(at -2.032 3.302 90)
 			(layer "F.SilkS")
 			(uuid "68fe7f16-94ab-4edf-b44e-df914bddeda6")
 			(effects
@@ -9623,7 +9623,7 @@
 			(uuid "89a67802-e372-4299-90ec-21fef189bff3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.032 8.636 90)
+			(at -1.905 3.429 90)
 			(layer "F.Fab")
 			(uuid "12cfba1a-1582-4ced-bff5-c2df430c893a")
 			(effects
@@ -10163,7 +10163,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at 2.54 4.138 180)
+			(at 2.54 2.032 180)
 			(layer "F.SilkS")
 			(uuid "a3ad0997-20e4-4f6c-9a46-dafc8b99d706")
 			(effects
