@@ -14,8 +14,6 @@ Chaos Papagali is a little bigger (50 x 21 mm) than Annoyng PCB (44 x 24 mm):
 
 In addition to being annoying with its random vibrations, the Chaos Papagali also has the function of only operating in the dark for maximum inconvenience.
 
-Image of a parrot (Papagali in Romanian) generated with AI, because I don't have the gift for drawing...
-
 ## Demo video:
 [![Chaos Papagali demo video](https://img.youtube.com/vi/ZlEl3M0w8CY/0.jpg)](https://www.youtube.com/watch?v=ZlEl3M0w8CY)
 
@@ -65,7 +63,9 @@ In these machines, they implement a circuit with frequency and envelope outputs 
 
 2. In some cases, it is necessary to secure the PCB to the surface with adhesive tape or by placing a weight on it; otherwise, it may 'walk' on the surface.
 
-3. Is possible to make this with a couple of LM555? Maybe...
+3. Image of a parrot (Papagali in Romanian) generated with AI, because I don't have the gift for drawing...
+
+4. Is possible to make this with a couple of LM555? Maybe...
 
 ## Contact:
 Feel free to reach out to me on social media: @pakequis in any of them...
