@@ -63,7 +63,7 @@ In these machines, they implement a circuit with frequency and envelope outputs 
 
 2. In some cases, it is necessary to secure the PCB to the surface with adhesive tape or by placing a weight on it; otherwise, it may 'walk' on the surface.
 
-3. Image of a parrot (Papagali in Romanian) generated with AI, because I don't have the gift for drawing...
+3. Image of a parrot (Papagali in Romanian) generated with AI, because I don't have the gift for drawing. The project name is a reference to that [song](https://www.youtube.com/watch?v=nYc09Xqy3hE) by the second greatest metal band in the world.
 
 4. Is possible to make this with a couple of LM555? Maybe...
 
