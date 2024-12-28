@@ -70,4 +70,4 @@ In these machines, they implement a circuit with frequency and envelope outputs 
 ## Contact:
 Feel free to reach out to me on social media: @pakequis in any of them...
 
-You can also send me an email at pakequis (Gmail).
+You can also send me an email at pakequis (at Gmail).
